@@ -31,16 +31,16 @@ make
 6. be happy
 
 #### needed libraries
-plugins\imageformats\qjpeg4.dll
-plugins\phonon_backend\phonon_ds94.dll
-QtXml4.dll
-QtGui4.dll
-QtCore4.dll
-phonon4.dll
-ssleay32.dll
-libeay32.dll
-QtScript4.dll
-QtNetwork4.dll
+* plugins\imageformats\qjpeg4.dll
+* plugins\phonon_backend\phonon_ds94.dll
+* QtXml4.dll
+* QtGui4.dll
+* QtCore4.dll
+* phonon4.dll
+* ssleay32.dll
+* libeay32.dll
+* QtScript4.dll
+* QtNetwork4.dll
 
 #### qt.conf
 ```
