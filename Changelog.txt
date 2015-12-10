@@ -1,0 +1,68 @@
+v1.5.0
+  - complete redesign of the Hotdopper API
+  - added settings for custom hotdropper sounds
+  - added a link to the CVA KOS Database in the context menu
+  - added download link the "about"
+  - added a configuration option to specify a custom path to the wine documents folder
+      ( linux only )
+
+v1.3.2
+  - fixed a major bug, resulting in a wrong KOS state if entry was read from local cache
+
+v1.3.1
+  - fixed updating local hotdropper database
+
+v1.3.0
+  - added Hotdropper database
+  - all requests are now cached by an external system
+  - fixed a minor bug, marking "Not KOS" players as "Not Listed" in rare conditions
+  - added context menu for list entrys
+    - link to killboard
+    - hotdropper control
+
+v1.2.2
+  - fixed false positiv KOS if the current corp is not listed in the
+    KOS database and has no alliance
+
+v1.2.1
+  - fixed missing avatar images for alliance and corps
+
+v1.2.0
+  - added inernal cache for KOS lookups
+  - improved KOS logic
+
+v1.1.3
+  - fixed a bug in the KOS Checker Code, causing missing alliance checks 
+    if the corp is not listed in the KOS Database
+
+v1.1.2
+  - added support for custom sounds
+  - added configuration menu for audio related settings
+  - made window size and position persistent
+  - provided Windows installer
+
+v1.1.1
+  - fixed KOS check for NPC Corps ( Faction Warfare )
+
+v1.1.0
+  - major code improvements
+  - fixed compile-error under linux
+  - fixed KOS Checking Code
+
+v1.0.4
+  - fixed a memory leak
+  - fixed sound issues under linux
+
+v1.0.3
+  - fixed a bug with the log-rescan, causing only logs of new channel to appear
+
+v1.0.2
+  - now looking for logfiles from today and yesterday
+    - fixes a bug, causing no logfiles where found if the game client was started
+      before 11:59pm and the KOS Checker after 0:00am
+
+v1.0.1
+  - first public alpha release
+
+v1.0.0
+  - initial version

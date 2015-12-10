@@ -1,0 +1,4 @@
+[Project]
+Name=ProvidenceKOSLookup
+Manager=KDevCMakeManager
+VersionControl=kdevgit

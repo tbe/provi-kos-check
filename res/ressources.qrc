@@ -1,0 +1,17 @@
+<RCC>
+  <qresource>
+    <file alias="icon.png">icon_32.png</file>
+    <file alias="alarm.wav">highlight.wav</file>
+    <file alias="hotdropper.wav">hotdropper-alert.wav</file>
+  </qresource>
+  <qresource prefix="about">
+    <file>terra-nanotech.png</file>
+    <file>yulai-federation.png</file>
+    <file>cva-logo.png</file>
+    <file>about.html</file>
+  </qresource>
+  <qresource prefix="listentry">
+    <file alias="loader.gif">ajax-loader.gif</file>
+    <file alias="hotdropper.png">hotdropper-icon-16x16.png</file>
+  </qresource>
+</RCC>
