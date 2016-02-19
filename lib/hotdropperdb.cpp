@@ -174,7 +174,7 @@ void HotDropperDB::updateDB()
     spinUnlock();
     delete client;
     socket.close();
-    updateTimer->start(60000);
+    updateTimer->start(900000);
 }
 
 
