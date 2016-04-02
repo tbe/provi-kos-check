@@ -24,7 +24,7 @@
 #include <QtCore/QDebug>
 
 #ifndef USERAGENT
-#define USERAGENT "ProvidenceKOSLookup 2.0"
+#define USERAGENT "ProvidenceKOSLookup 2.0 / YF [TN-NT] Rounon Dax"
 #endif//USERAGENT
 
 using namespace pkos;

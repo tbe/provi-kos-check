@@ -19,13 +19,18 @@
 
 #include "hotdropperdb.h"
 
+/*
 #define DB_URL "http://koscheck.terra-nanotech.de/kospilotdb.sqlite"
 #define APIURL "http://koscheck.terra-nanotech.de/kos-pilot-information.php"
-
 #define PDB_SERVER "terra-nanotech.de"
+*/
+
+#define DB_URL ""
+#define APIURL ""
+#define PDB_SERVER ""
 
 #ifndef USERAGENT
-#define USERAGENT "ProvidenceKOSLookup 2.0"
+#define USERAGENT "ProvidenceKOSLookup 2.0 / YF [TN-NT] Rounon Dax"
 #endif//USERAGENT
 
 #include <QtCore/QAtomicInt>
@@ -79,9 +84,11 @@ HotDropperDB::HotDropperDB(QObject* parent)
         ready = prepareQueries();
     }
     if ( ready ) {
+		/*
         updateTimer = new QTimer(this);
         connect(updateTimer,SIGNAL(timeout()),this,SLOT(updateDB()));
         updateDB();
+        */
     }
 }
 

@@ -22,7 +22,8 @@
 #include <QtNetwork/QNetworkReply>
 #include <QtXml/QXmlSimpleReader>
 
-#define EVEAPI "http://eve-api.terra-nanotech.de:8080/%1.xml.aspx"
+/* #define EVEAPI "http://eve-api.terra-nanotech.de:8080/%1.xml.aspx" */
+#define EVEAPI "https://api.eveonline.com/%1.xml.aspx"
 const QString urlptrn(EVEAPI);
 
 
