@@ -24,8 +24,8 @@
 #include <QtScript/QScriptEngine>
 #include <QtScript/QScriptValueIterator>
 
-/* const QString apiURL("http://kos-api.terra-nanotech.de:8080/"); */
-const QString apiURL("http://kos.cva-eve.org/api/");
+const QString apiURL("http://kos-api.terra-nanotech.de:8080/");
+/* const QString apiURL("http://kos.cva-eve.org/api/"); */
 
 using namespace pkos;
 
